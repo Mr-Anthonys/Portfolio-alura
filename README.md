@@ -1,1 +1,1 @@
-<img src="./img/git.png"> </img>
+![Página inicial](URL_da_imagem)
