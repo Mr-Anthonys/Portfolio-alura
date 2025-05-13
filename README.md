@@ -1,1 +1,1 @@
-![Página inicial](URL_da_imagem)
+![Página inicial](./img/git.PNG)
