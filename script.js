@@ -1,17 +1,19 @@
 const imgGithubProject = document.querySelector('#imgGithubProject');
 const imgInstaProject = document.querySelector('#imgInstagramProject');
+const gitBlue = document.querySelector('.gitBlue');
+const instBlue = document.querySelector('.instBlue');
 
 imgGithubProject.addEventListener('mouseenter', () => {
-    subtitle.style.color = '#22D4FD';
+    gitBlue.style.color = '#22D4FD';
 });
 imgGithubProject.addEventListener('mouseleave', () => {
-    subtitle.style.color = '#ffffff';
+    gitBlue.style.color = '#ffffff';
 });
 
 imgInstaProject.addEventListener('mouseenter', () => {
-    subtitle.style.color = '#22D4FD';
+    instBlue.style.color = '#22D4FD';
 });
 imgInstaProject.addEventListener('mouseleave', () => {
-    subtitle.style.color = '#ffffff';
+    instBlue.style.color = '#ffffff';
 });
 

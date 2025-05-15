@@ -28,6 +28,10 @@ body {
     color: #22D4FD;
     text-decoration: none;
 }
+.cabecalho_menu_link:hover {
+    color: #ffffff;
+    text-shadow: #22D4FD -5px -4px 10px;
+}
 
 /* DIV FOOTER */
 .rodape {
