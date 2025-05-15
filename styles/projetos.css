@@ -1,0 +1,50 @@
+/* CARD MAIN */
+.apresentacao-projetos {
+    padding: 10% 15%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  /* vertical | horizontal */
+}
+
+.lista-card-projetos {
+    display: flex;
+    align-items: center;
+
+    gap: 40%;
+    list-style: none;
+}
+
+.projetos-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+.projetos-img:hover {
+    filter: drop-shadow(0 -6mm 4mm #22D4FD);
+}
+    
+
+.subtitulo-projeto-link {
+    padding: 8% 0 0 0; /*superior | direita | inferior | esquerda*/
+    font-family: 'Krona One', sans-serif;
+    font-weight: 100;
+}
+
+.subtitle-projects {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    top: 33%;
+    left: 110%;
+}
